@@ -2,7 +2,10 @@
 <html>
 <head>
 	<title>Ayush Verma</title>
-
+	<link rel="shortcut icon" type="image/png" href="https://avatars.githubusercontent.com/u/67556456?v=4"/>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style>
 		body{
 			margin: 0;
@@ -10,24 +13,41 @@
 			justify-content: center;
 			text-align: center;
 			font-family: comic sans ms;
-			color: yellow;
+			color: purple;
+			font-size: 20px;
 		}
 		div{
 			display: inline-flex;
 		}
 		ul{
-			display: inline-flex;
-			list-style: none;
+			
+			margin: 0;
+			padding: 0;
+		}
+		ul li ul{
+			margin-left: 50px;
 		}
 		a{
 			text-decoration: none;
-			color: yellow;
+			color: inherit;
 			outline: none;
+		}
+		a:focus{
+			color: inherit;
+		}
+		img{
+			width: 100px;
+			height: 100px;
+			border-radius: 10px;
 		}
 
 		.nav-bar{
 			position: sticky;
 			top: 10px;
+		}
+		.nav-bar ul{
+			display: inline-flex;
+			list-style: none;
 		}
 		.nav-bar ul li{
 			font-size: 30px;
@@ -39,44 +59,150 @@
 			background: rgb(150,200,150);
 		}
 		.nav-bar ul li a{
-			color: rgb(50,100,50);
+			color: purple;/*rgb(50,100,50);*/
 		}
 		.nav-container{
-			height: 500px;
+			min-height: 500px;
 			padding-top: 100px;
+			justify-content: center;
+			text-align: center;
+			width: 90%;
 		}
 	</style>
-	
 </head>
 <body>
 
 	<div class="body-top" style="display: block;">
-		<h1><a href="#">Ayush Verma Haha</a></h1>
-		<h2 style="font-style: italic;color: black;">Aspiring web developer & networking enthusiast</h2>
+		<h1><a href=""><img src="https://avatars.githubusercontent.com/u/67556456?v=4"><br>Ayush Verma</a></h1>
+		<h2 style="font-style: italic;color: black;">Aspiring python developer & networking enthusiast</h2>
 	</div>
 	<div class="nav-bar">
 		<ul>
 			<li><a href="#skills">Skills</a></li>
-			<li><a href="#porfolio">Portfolio</a></li>
+			<li><a href="#porfolio">Projects</a></li>
 			<li><a href="#contact">Contact Me</a></li>
 		</ul>
 	</div>
 	<br>
 	<div id="skills" class="nav-container">
 		<div>
-			Skills
+			<br>
+			<ul>
+				<u><strong>SKILLS</strong></u>
+				<br><br>
+				<li>
+					<strong><small>Python</small></strong>
+					<ul>
+						<li>Django (web framework)</li>
+						<li>Scripting - web scraping</li>
+					</ul>
+				</li>
+				<br>
+				<li>
+					<strong><small>PHP</small></strong>
+					<ul>
+						<li>Web Development using LAMP stack</li>
+					</ul>
+				</li>
+				<br>
+				<li>
+					<strong><small>Frontend</small></strong>
+					<ul>
+						<li>HTML (web layout)</li>
+						<li>CSS (web design)</li>
+						<li>Jquery (data manipulation)</li>
+					</ul>
+				</li>
+			</ul>
 		</div>
 	</div>
 	<hr>
 	<div id="porfolio" class="nav-container">
 		<div>
-			Portfolio
+			<br>
+			<ul>
+				<u><strong>PROJECTS</strong></u>
+				<br><br>
+				<li>
+					<strong><small><a href="https://yesbroker.in" target="blank">yesbroker.in<br><img src="https://yesbroker.in/images/logo.jpeg"></a></small></strong>
+					<ul>
+						<li>A freelance project</li>
+						<br>
+						<li>
+							TechStack used -
+							<br>
+							<ul>
+								<li>PHP native</li>
+								<li>HTML, CSS, JS</li>
+								<li>MySQL database</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<br>
+				<li>
+					<strong><small><a href="https://covidhelp.pythonanywhere.com" target="blank">covidhelp website<br><img src="https://covidhelp.pythonanywhere.com/static/images/logo.png"><br></a></small></strong>
+					<ul>
+						<li>Covid resources providing website</li>
+						<li><a href="https://github.com/ayush02av/covidhelp/" target="blank">For e-yantra hackathon 2021</a></li>
+						<br>
+						<li>
+							TechStack used -
+							<br>
+							<ul>
+								<li>Django, Python</li>
+								<li>HTML, CSS, JS</li>
+								<li>SQLite3 database</li>
+							</ul>
+						</li>
+						<br>
+						<li>
+							<a href="https://www.linkedin.com/in/vaibhav-kumar5/" target="blank">Co-developer : Vaibhav Kumar</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
 		</div>
 	</div>
 	<hr>
 	<div id="contact" class="nav-container">
 		<div>
-			Contact
+			<br>
+			<ul>
+				<u><strong>CONTACT</strong></u>
+				<br><br>
+				<li>
+					<strong><small>
+						Number : +91 931 509 5046
+						<br>
+						<a href="https://api.whatsapp.com/send?phone=+919315095046&text=Hey I checked your github portfolio" target="blank"><span class="fa fa-whatsapp" style="color: green;"> WhatsApp</span></a>
+						<a href="tel:8851075300"><span class="fa fa-phone" style="color: blue;"> Phone</span></a>
+					</small></strong>
+				</li>
+				<br>
+				<li>
+					<strong><small>
+						Email : 
+						<a href="mailto:ayush02av@gmail.com" target="blank">ayush02av@gmail.com</a>
+					</small></strong>
+				</li>
+				<br>
+				<li>
+					<strong>
+						Social Platforms
+						<br>
+						<a href="https://github.com/ayush02av" target="blank"><spand class="fa fa-github"></spand></a>
+						<a href="https://www.linkedin.com/in/ayushverma02/" target="blank"><span class="fa fa-linkedin"></span></a>
+						<a href="https://instagram.com/thrusher_27" target="blank"><span class="fa fa-instagram"></span></a>
+					</strong>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<hr>
+	<div class="nav-container">
+		<div>
+			<strong>Extra (coming soon)</strong>
 		</div>
 	</div>
 
